@@ -1,0 +1,118 @@
+@font-face {
+    font-family: "TNG";
+    src: url(../assets/fonts/TNG_Title.ttf);
+}
+@font-face {
+    font-family: "StarTrekFuture";
+    src: url(../assets/fonts/Startrekfuture-EK6e.ttf);
+}
+.preload {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../assets/images/spaceX.jpg');
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    
+    .log {
+        margin-bottom:28rem;
+        width: 80vw;
+        height: max-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "TNG";
+        font-weight: 900;
+        font-size: 3.5rem;
+        line-height: 1.43;
+        color: #14e956; 
+        @media (min-width: 480px) and (max-width: 759px) {
+            font-size: 2.5rem;
+            line-height: 1;
+        }
+        @media (max-width: 479px) {
+            font-size: 2rem;
+            line-height: 1;
+        }
+        
+    }
+    .loader {
+        width: 80vw !important;
+    }
+    .progress {
+        width: 80vw !important;
+        color: #14e956 !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+}
+
+
+.css-eglki6-MuiLinearProgress-root {
+    height: 20px !important;
+    background-color: #e8fdee !important;
+    border-radius: 5px !important;
+    @media (min-width: 480px) and (max-width: 759px) {
+        height: 14px !important;
+    }
+    @media (max-width: 479px) {
+        height: 12px !important;
+    }
+}
+
+.css-5xe99f-MuiLinearProgress-bar1 {
+    background-color: #14e956 !important;
+}
+
+.css-1kjyx0o-MuiTypography-root {
+    margin-top: 0.5rem !important;
+    font-family: "TNG" !important;
+    font-weight: 900 !important;
+    font-size: 3rem !important;
+    line-height: 1.43;
+    @media (min-width: 480px) and (max-width: 759px) {
+        font-size: 2.5rem !important;
+        line-height: 1.15 !important;
+    }
+    @media (max-width: 479px) {
+        font-size: 2rem !important;
+        line-height: 1 !important;
+    }
+}
+
+.css-7p5u54 {
+    height: 20px !important;
+    background-color: #e8fdee !important;
+    border-radius: 5px !important;
+    @media (min-width: 480px) and (max-width: 759px) {
+        height: 14px !important;
+    }
+    @media (max-width: 479px) {
+        height: 12px !important;
+    }
+}
+
+.css-t752vm {
+    background-color: #14e956 !important;
+}
+
+.css-16e5s8c {
+    margin-top: 2rem !important;
+    font-family: "StarTrekFuture" !important;
+    font-weight: 900 !important;
+    font-size: 3rem !important;
+    line-height: 1.43;
+    @media (min-width: 480px) and (max-width: 759px) {
+        font-size: 2.5rem !important;
+        line-height: 1.15 !important;
+    }
+    @media (max-width: 479px) {
+        font-size: 2rem !important;
+        line-height: 1 !important;
+    }
+}
